@@ -13,4 +13,5 @@ header('Content-Type: image/png');
 imagepng($image, $result_path);
 imagedestroy($image);
 }
+echo "Result OK";
 
